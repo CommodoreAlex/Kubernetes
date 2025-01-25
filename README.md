@@ -12,6 +12,7 @@ This repository provides a step-by-step guide to help you learn Kubernetes from 
 - [Networking & Storage](networking-storage.md)
 - [Troubleshooting](troubleshooting.md)
 - [Security](security.md)
+- [Helm Commands](helm-commands.md)
 
 ## Introduction 🌱
 This guide introduces Kubernetes, a powerful container orchestration platform, covering everything from setting up your Kubernetes environment to managing and scaling applications.
@@ -39,5 +40,8 @@ Troubleshoot common Kubernetes issues and learn useful debugging commands.
 
 ## Security 🔒
 Understand the basics of securing a Kubernetes cluster, including best practices for authentication, authorization, and network policies.
+
+## Helm 📦
+Learn the basics of Helm, a package manager for Kubernetes. Helm simplifies the deployment and management of applications on Kubernetes by using pre-configured packages called charts. This section covers the core concepts of Helm, including how to install Helm, use charts from repositories, and manage Helm releases for your Kubernetes applications. Helm allows you to easily deploy, upgrade, and maintain complex applications on Kubernetes with simple commands and configuration files.
 
 ---
