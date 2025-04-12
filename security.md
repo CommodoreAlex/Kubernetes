@@ -4,7 +4,7 @@ Securing your Kubernetes cluster is critical to protecting your workloads and se
 
 ---
 
-## Core Security Concepts 🔒
+## Core Security Concepts
 
 1. **Authentication**: Verifying the identity of users and service accounts.
 2. **Authorization**: Defining what authenticated users can do within the cluster.
@@ -14,7 +14,7 @@ Securing your Kubernetes cluster is critical to protecting your workloads and se
 
 ---
 
-## Kubernetes Security Best Practices 🛡️
+## Kubernetes Security Best Practices
 
 ### 1. Enable Role-Based Access Control (RBAC)
 RBAC restricts user actions based on defined roles.
@@ -168,7 +168,7 @@ Avoid hardcoding sensitive data in your application code.
 
 ---
 
-## Tools for Enhancing Security 🛠️
+## Tools for Enhancing Security
 
 - **Kube-Bench**: Checks cluster configuration against security benchmarks.
 - **Kube-Hunter**: Identifies security vulnerabilities in Kubernetes clusters.
