@@ -4,7 +4,7 @@ Scaling applications in Kubernetes allows you to adjust the number of replicas (
 
 ---
 
-## Step 1: Manual Scaling 🔧
+## Step 1: Manual Scaling
 
 Manual scaling lets you increase or decrease the number of pods for a deployment.
 
@@ -31,7 +31,7 @@ You should see 5 pods running.
 
 ---
 
-## Step 2: Horizontal Pod Autoscaler (HPA) ⚖️
+## Step 2: Horizontal Pod Autoscaler (HPA) 
 
 The Horizontal Pod Autoscaler automatically adjusts the number of replicas based on resource usage (e.g., CPU or memory).
 
@@ -67,7 +67,7 @@ kubectl get hpa
 
 ---
 
-## Step 3: Test Autoscaling ⚙️
+## Step 3: Test Autoscaling
 
 Generate CPU load to test autoscaling using a simple containerized tool:
 
@@ -89,7 +89,7 @@ You should see the number of replicas increase as the CPU utilization rises.
 
 ---
 
-## Step 4: Clean Up 🧹
+## Step 4: Clean Up
 
 When you're done, clean up your resources:
 
@@ -101,7 +101,7 @@ kubectl delete pod stress-pod
 
 ---
 
-## Best Practices for Scaling 🧠
+## Best Practices for Scaling
 
 1. **Monitor Resource Utilization**: Ensure you have tools in place to monitor CPU, memory, and other metrics.
 2. **Set Reasonable Limits**: Define minimum and maximum replica counts that match your application’s requirements.
