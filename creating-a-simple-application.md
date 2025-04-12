@@ -4,7 +4,7 @@ This guide will walk you through deploying a simple application in Kubernetes. W
 
 ---
 
-## Step 1: Create a Deployment 📦
+## Step 1: Create a Deployment
 
 A Deployment manages a set of identical pods. For this example, we'll deploy an Nginx web server.
 
@@ -26,7 +26,7 @@ kubectl get pods
 
 ---
 
-## Step 2: Expose the Deployment 🌐
+## Step 2: Expose the Deployment
 
 Expose the deployment as a service to make it accessible:
 
@@ -45,7 +45,7 @@ kubectl get services
 
 ---
 
-## Step 3: Access the Application 🌍
+## Step 3: Access the Application
 
 Retrieve the NodePort assigned to the service:
 
@@ -73,7 +73,7 @@ kubectl get nodes -o wide
 
 ---
 
-## Step 4: Clean Up 🧹
+## Step 4: Clean Up
 
 When you're done, delete the resources to free up cluster resources:
 
