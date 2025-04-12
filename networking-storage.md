@@ -4,7 +4,7 @@ Kubernetes simplifies networking and storage for containerized applications, pro
 
 ---
 
-## Networking in Kubernetes 🌐
+## Networking in Kubernetes
 
 Kubernetes networking ensures seamless communication between pods, services, and external resources.
 
@@ -46,7 +46,7 @@ http://<node-ip>:<node-port>
 
 ---
 
-## Storage in Kubernetes 📦
+## Storage in Kubernetes
 
 Storage in Kubernetes is essential for persisting data beyond the lifecycle of individual pods.
 
@@ -144,7 +144,7 @@ kubectl apply -f pod-with-pvc.yaml
 
 ---
 
-## Best Practices 🧠
+## Best Practices
 
 - **Plan Storage Needs**: Use dynamic provisioning with storage classes for scalable storage solutions.
 - **Secure Networking**: Implement network policies to control traffic between pods and services.
