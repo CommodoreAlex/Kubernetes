@@ -15,7 +15,7 @@ kubectl cluster-info
 
 ## Common kubectl Commands
 
-### 1. Cluster Information 🌐
+### 1. Cluster Information
 Get details about the cluster and its components:
 
 ```bash
@@ -28,7 +28,7 @@ kubectl get nodes
 
 ---
 
-### 2. Managing Pods 📦
+### 2. Managing Pods
 #### List Pods
 ```bash
 kubectl get pods
@@ -46,7 +46,7 @@ kubectl delete pod <pod-name>
 
 ---
 
-### 3. Managing Deployments 📋
+### 3. Managing Deployments
 #### List Deployments
 ```bash
 kubectl get deployments
@@ -79,7 +79,7 @@ kubectl delete deployment <deployment-name>
 
 ---
 
-### 4. Working with Services 🌐
+### 4. Working with Services
 #### List Services
 ```bash
 kubectl get services
@@ -97,7 +97,7 @@ kubectl delete service <service-name>
 
 ---
 
-### 5. Logs and Troubleshooting 🛠️
+### 5. Logs and Troubleshooting 
 #### View Pod Logs
 ```bash
 kubectl logs <pod-name>
@@ -116,7 +116,7 @@ kubectl exec -it <pod-name> -- /bin/bash
 
 ---
 
-### 6. Configurations and Resources ⚙️
+### 6. Configurations and Resources 
 #### Apply a Configuration File
 ```bash
 kubectl apply -f <file-name>.yaml
@@ -141,7 +141,7 @@ kubectl get deployments
 
 ---
 
-## Tips for Success 🧠
+## Tips for Success
 - Use `kubectl help` to explore additional command options.
 - Add the `-o wide` flag to get more detailed output for many commands.
 - Use YAML manifests for declarative configuration, as it makes managing resources more efficient.
