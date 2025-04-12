@@ -37,32 +37,32 @@ Kubernetes operates on a **cluster architecture**. A cluster is made up of:
 
 ### Control Plane Components
 
-1. **API Server** 🖥️
+1. **API Server**
    - Acts as the front end of the cluster.
    - Exposes the Kubernetes API, which is used by `kubectl` and other tools to interact with the cluster.
 
-2. **etcd** 📒
+2. **etcd**
    - A distributed, reliable key-value store that holds the entire state of the cluster.
    - Highly available and consistent.
 
-3. **Scheduler** 🗓️
+3. **Scheduler**
    - Assigns work (pods) to specific nodes in the cluster based on resource requirements and policies.
 
-4. **Controller Manager** 🔄
+4. **Controller Manager**
    - Ensures the desired state of the cluster by managing controllers, such as:
      - Node Controller: Monitors node health.
      - Replication Controller: Ensures the correct number of pods are running.
 
 ### Worker Node Components
 
-1. **kubelet** 🛠️
+1. **kubelet** 
    - An agent that runs on each worker node.
    - Ensures containers in pods are running as expected.
 
-2. **kube-proxy** 🌐
+2. **kube-proxy**
    - Manages network rules on nodes, allowing communication between pods and services.
 
-3. **Pods** 📦
+3. **Pods**
    - The smallest deployable unit in Kubernetes.
    - Encapsulates one or more containers, storage, and networking configurations.
 
