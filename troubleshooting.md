@@ -4,7 +4,7 @@ Kubernetes troubleshooting is essential for identifying and resolving issues tha
 
 ---
 
-## Step 1: Check Pod Status 🛠️
+## Step 1: Check Pod Status
 
 Start by checking the status of your pods:
 
@@ -38,7 +38,7 @@ kubectl logs <pod-name> -c <container-name>
 
 ---
 
-## Step 2: Inspect Deployments and Services 🔍
+## Step 2: Inspect Deployments and Services
 
 ### Deployment Status
 Check if deployments are running correctly:
@@ -68,7 +68,7 @@ kubectl exec -it <pod-name> -- curl http://<service-name>:<port>
 
 ---
 
-## Step 3: Troubleshoot Networking Issues 🌐
+## Step 3: Troubleshoot Networking Issues
 
 ### Check Network Policies
 List network policies in your namespace:
@@ -95,7 +95,7 @@ kubectl exec -it <pod-name> -- ping <target-pod-ip>
 
 ---
 
-## Step 4: Debug Persistent Volume Issues 📦
+## Step 4: Debug Persistent Volume Issues
 
 ### Inspect PVC and PV
 Check the status of Persistent Volume Claims (PVCs):
@@ -126,7 +126,7 @@ kubectl describe pod <pod-name>
 
 ---
 
-## Step 5: Debug Resource Constraints 🚦
+## Step 5: Debug Resource Constraints
 
 ### Check Resource Requests and Limits
 Inspect pod resource settings to see if they exceed cluster capacity:
@@ -154,7 +154,7 @@ kubectl top pods
 
 ---
 
-## Step 6: Common Errors and Solutions ❗
+## Step 6: Common Errors and Solutions
 
 1. **Pod Stuck in Pending**:
    - Cause: Insufficient resources or unscheduled nodes.
@@ -174,7 +174,7 @@ kubectl top pods
 
 ---
 
-## Best Practices 🧠
+## Best Practices
 
 - Use `kubectl` debugging tools regularly to stay familiar.
 - Monitor cluster health using dashboards or external monitoring tools.
