@@ -76,13 +76,13 @@ If you try to run as the root user you will need to use `--force`:
 ```bash
 ┌──(root㉿kali)-[/home/kali]
 └─# minikube start
-😄  minikube v1.35.0 on Debian kali-rolling
-✨  Automatically selected the docker driver. Other choices: none, ssh
-🛑  The "docker" driver should not be used with root privileges. If you wish to continue as root, use --force.
-💡  If you are running minikube within a VM, consider using --driver=none:
-📘    https://minikube.sigs.k8s.io/docs/reference/drivers/none/
+minikube v1.35.0 on Debian kali-rolling
+Automatically selected the docker driver. Other choices: none, ssh
+The "docker" driver should not be used with root privileges. If you wish to continue as root, use --force.
+If you are running minikube within a VM, consider using --driver=none:
+https://minikube.sigs.k8s.io/docs/reference/drivers/none/
 
-❌  Exiting due to DRV_AS_ROOT: The "docker" driver should not be used with root privileges.
+Exiting due to DRV_AS_ROOT: The "docker" driver should not be used with root privileges.
 ```
 
 2. Verify the cluster is running:
