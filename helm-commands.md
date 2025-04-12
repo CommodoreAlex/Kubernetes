@@ -1,8 +1,8 @@
-## Helm Usage Guide 🛠️
+## Helm Usage Guide 
 
 Helm is a powerful tool that helps you manage Kubernetes applications through packages called **charts**. It simplifies the process of deploying, updating, and managing applications on your Kubernetes cluster.
 
-### Table of Contents 📝
+### Table of Contents
 
 - [What is Helm?](#what-is-helm)
 - [Installing Helm](#installing-helm)
@@ -37,7 +37,7 @@ In short:
 helm version
 ```
 
-### Helm Commands Overview 📜
+### Helm Commands Overview
 
 Familiarize yourself with these basic Helm commands:
 
@@ -60,7 +60,7 @@ helm upgrade <release-name> <chart-name>
 ```bash
 helm uninstall <release-name>
 ```
-### Deploying Applications with Helm 🚀
+### Deploying Applications with Helm
 
 To deploy an application with Helm:
 
@@ -70,7 +70,7 @@ To deploy an application with Helm:
 helm install my-app bitnami/nginx
 ```
 
-### Managing Helm Releases ⚙️
+### Managing Helm Releases 
 
 You can manage your Helm releases with commands like:
 
@@ -84,7 +84,7 @@ helm status <release-name>
 helm history <release-name>
 ```
 
-### Upgrading and Rolling Back 🔄
+### Upgrading and Rolling Back
 
 Helm makes it easy to upgrade applications or roll them back:
 
@@ -98,7 +98,7 @@ helm upgrade <release-name> <chart-name>
 helm rollback <release-name> <revision-number>
 ```
 
-### Helm Chart Repositories 📚
+### Helm Chart Repositories 
 
 Helm allows you to use public or private chart repositories to find and share charts. You can add repositories with:
 ```bash
@@ -106,7 +106,7 @@ helm repo add <repo-name> <repo-url>
 helm repo update
 ```
 
-### Using Values and Configurations ⚙️
+### Using Values and Configurations 
 
 Helm charts can be customized using values files or direct command-line overrides:
 
